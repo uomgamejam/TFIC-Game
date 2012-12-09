@@ -24,14 +24,34 @@ namespace KilburnEscape
 	{
 		private Area mDestinationArea;
 
-		public AreaHotspot(Area area, Area destinationArea)
+		public AreaHotspot(Area area, Area destinationArea, RectangleF sense)
 			: base(area)
 		{
+			mDestinationArea = destinationArea;
+			Sensitive = sense;
 		}
 
 		public override void Action()
 		{
 			Area.World.ChangeArea(mDestinationArea);
+		}
+	}
+
+	class CustomHotspot : Hotspot
+	{
+		Action mCallback;
+
+		public CustomHotspot(Area area, Action callback, RectangleF sense)
+			: base(area)
+		{
+			mCallback = callback;
+			Sensitive = sense;
+		}
+
+		public override void Action()
+		{
+			if (mCallback != null)
+				mCallback.Invoke();
 		}
 	}
 }

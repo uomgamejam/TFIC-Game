@@ -38,18 +38,21 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.imgScene.Location = new System.Drawing.Point(12, 12);
 			this.imgScene.Name = "imgScene";
-			this.imgScene.Size = new System.Drawing.Size(801, 472);
+			this.imgScene.Size = new System.Drawing.Size(850, 565);
 			this.imgScene.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.imgScene.TabIndex = 0;
 			this.imgScene.TabStop = false;
+			this.imgScene.MouseMove += new System.Windows.Forms.MouseEventHandler(this.imgScene_MouseMove);
 			this.imgScene.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgScene_MouseUp);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(825, 496);
+			this.ClientSize = new System.Drawing.Size(874, 589);
 			this.Controls.Add(this.imgScene);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+			this.MaximizeBox = false;
 			this.Name = "MainForm";
 			this.Text = "Kilburn Escape";
 			((System.ComponentModel.ISupportInitialize)(this.imgScene)).EndInit();

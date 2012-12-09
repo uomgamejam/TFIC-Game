@@ -31,5 +31,16 @@ namespace KilburnEscape
 		{
 			mWorld.CurrentArea.Click(new PointF(e.X / (float)imgScene.Width, e.Y / (float)imgScene.Height));
 		}
+
+		private void imgScene_MouseMove(object sender, MouseEventArgs e)
+		{
+			this.Text = String.Format("Kilburn Escape - {0:0.00}, {1:0.00}", e.X / (float)imgScene.Width, e.Y / (float)imgScene.Height);
+
+			if (mWorld.CurrentArea.IsHotspot(new PointF(e.X / (float)imgScene.Width, e.Y / (float)imgScene.Height))) {
+				imgScene.Cursor = Cursors.Hand;
+			} else {
+				imgScene.Cursor = Cursors.Default;
+			}
+		}
 	}
 }
