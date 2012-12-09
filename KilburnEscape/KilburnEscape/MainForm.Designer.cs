@@ -38,7 +38,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.imgScene.Location = new System.Drawing.Point(12, 12);
 			this.imgScene.Name = "imgScene";
-			this.imgScene.Size = new System.Drawing.Size(506, 348);
+			this.imgScene.Size = new System.Drawing.Size(801, 472);
 			this.imgScene.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.imgScene.TabIndex = 0;
 			this.imgScene.TabStop = false;
@@ -48,7 +48,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(530, 372);
+			this.ClientSize = new System.Drawing.Size(825, 496);
 			this.Controls.Add(this.imgScene);
 			this.Name = "MainForm";
 			this.Text = "Kilburn Escape";

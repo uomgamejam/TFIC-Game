@@ -16,6 +16,11 @@ namespace KilburnEscape
 
 		private Bitmap mImage;
 
+		public Area(World world)
+		{
+			mWorld = world;
+		}
+
 		public void Click(PointF sense)
 		{
 			if (sense.X < 0.1f && mLeft != null) {

@@ -19,6 +19,7 @@ namespace KilburnEscape
 			InitializeComponent();
 
 			mWorld.Update += mWorld_Update;
+			mWorld_Update(this, EventArgs.Empty);
 		}
 
 		void mWorld_Update(object sender, EventArgs e)
@@ -28,7 +29,7 @@ namespace KilburnEscape
 
 		private void imgScene_MouseUp(object sender, MouseEventArgs e)
 		{
-			mWorld.CurrentArea.Click(new PointF(e.X, e.Y));
+			mWorld.CurrentArea.Click(new PointF(e.X / (float)imgScene.Width, e.Y / (float)imgScene.Height));
 		}
 	}
 }

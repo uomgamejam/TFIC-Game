@@ -1,1 +1,10 @@
 C:\Users\Ted\Documents\Programming\Projects\Games\KilburnEscape\KilburnEscape\bin\Debug\KilburnEscape.exe.config
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\bin\Debug\KilburnEscape.exe.config
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\obj\Debug\KilburnEscape.csprojResolveAssemblyReference.cache
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\obj\Debug\KilburnEscape.MainForm.resources
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\obj\Debug\KilburnEscape.Properties.Resources.resources
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\obj\Debug\KilburnEscape.csproj.GenerateResource.Cache
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\bin\Debug\KilburnEscape.exe
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\bin\Debug\KilburnEscape.pdb
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\obj\Debug\KilburnEscape.exe
+C:\Users\Ted\Documents\GitHub\TFIC-Game\KilburnEscape\KilburnEscape\obj\Debug\KilburnEscape.pdb

@@ -17,7 +17,7 @@ namespace KilburnEscape
 			Area = area;
 		}
 		
-		public virtual void Action();
+		public abstract void Action();
 	}
 
 	class AreaHotspot : Hotspot

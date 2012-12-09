@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,19 @@ namespace KilburnEscape
 
 		public World()
 		{
+			Area collabA = new Area(this);
+			collabA.Image = new Bitmap(@"..\..\..\..\imgs\DSC_0414.JPG");
 
+			Area collabB = new Area(this);
+			collabB.Image = new Bitmap(@"..\..\..\..\imgs\DSC_0415.JPG");
+
+
+
+
+			collabA.Right = collabB;
+			collabB.Left = collabA;
+
+			mCurrentArea = collabA;
 		}
 
 		public void ChangeArea(Area area)
